@@ -1,0 +1,56 @@
+/* main,
+header,
+footer {
+  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* Grids */
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.grid_1-1-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3%;
+}
+.grid_2-1-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.kontakt-container {
+    display: grid;
+    grid-template-areas:
+      'form form form adresse offtrans'
+      'form form form kort kort'
+      'form form form kort kort';
+    gap: 1%;
+    padding: 2%;
+  }
+
+    .item2 { grid-area: form; }
+    .item3 { grid-area: adresse; }
+    .item4 { grid-area: offtrans; }
+    .item5 { grid-area: kort; }
+
+    @media (min-width: 600px) {
+        .grid_1-1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1em;
+        }}
+
+/* KONTAKT OS */
+
+.form {
+    width: 100%;
+  padding: 4% 5%;
+  margin: 18% 0;
+  box-sizing: border-box;
+}

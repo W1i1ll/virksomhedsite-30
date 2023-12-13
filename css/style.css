@@ -1,0 +1,626 @@
+
+/*Skema CSS*/
+table, th, td {
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    font-family: "Nanum Myeongjo";
+  }
+
+  table{
+    background-color: rgb(246 238 237);
+    padding: 10%;
+    border-radius: 15%;
+    
+  }
+
+  #uge_style{
+   margin: auto;
+   text-align: center;
+  }
+
+  #uge_chev_l{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+   }
+
+   #uge_chev_h{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+   }
+
+   .uge_h2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+   }
+
+   #uge_nr{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 250%;
+   }
+   
+
+   .skema_h1{
+    width: 35%;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    opacity: 80%;
+    border-radius: 20%;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    margin-top: 2%;
+    font-family: "Bebas Neue";
+   }
+
+  .skema_text{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    opacity: 80%;
+    border-radius: 20%;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    margin-top: 2%;
+    font-family: "Bebas Neue";
+  }
+
+  #skema_bg_container{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(0, 0, 0),rgba(245, 246, 252, 0)50%, rgb(0, 0, 0)), url(../img/medaljer.webp) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden;
+   
+  }
+
+
+  #h1_skema{
+    text-align: center;
+    font-family: "Bebas Neue";
+  }
+
+/* Skemaer */
+
+
+#skema_container{
+    position: relative;
+  width: 50%;
+  top: 45%;
+  left: 23.5%;
+  margin-top: 2%;
+  margin-bottom: 15%;
+}
+
+
+#skema_container > table{
+    width: 100%;
+height: 100%;
+background-size: cover;
+position: relative;
+}
+
+/*styling af indhold til skema*/
+
+.tid_knap{
+    background-color: #d9d9d9;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10%;
+    font-size: 120%;
+}
+
+.header_knap{
+    background-color: grey;
+    border-radius: 10%;
+    font-size: 120%;
+    color: white;
+}
+
+.kbox_beg{
+    background-color: #fca9a9;
+    border-radius: 10%;
+    border-color: #ff3535;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.kbox_al{
+    background-color: #8ae9eb;
+    border-radius: 10%;
+    border-color: #00ced1;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.kbox_ad{
+    background-color: #ffdb98;
+    border-radius: 10%;
+    border-color: #ffa500;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.nogi_al{
+    background-color: #ffffb4;
+    border-radius: 10%;
+    border-color: #ffff00;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.nogi_ad{
+    background-color: #ff91d7;
+    border-radius: 10%;
+    border-color: #c71585;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.optaget{
+    background-color: #009200;
+    border-radius: 10%;
+    border-color: #005400;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.BJJGI_al{
+    background-color: #a2ffa2;
+    border-radius: 10%;
+    border-color: #52ff52;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.BJJGI{
+    background-color: #8585ff;
+    border-radius: 10%;
+    border-color: #3f3fff;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.mma3{
+    background-color: rgb(255, 219, 205);
+    border-radius: 10%;
+    border-color: lightsalmon;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.mma2{
+    background-color: #9dceff;
+    border-radius: 10%;
+    border-color: #1e90ff;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.mma_fun{
+    background-color: #ccfccc;
+    border-radius: 10%;
+    border-color: #98fb98;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.mma_spa{
+    background-color: #ac37ff;
+    border-radius: 10%;
+    border-color: #4b0082;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.box{
+    background-color: #fe7cc2;
+    border-radius: 10%;
+    border-color: #ff1493;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.jits{
+    background-color: #a5fefe;
+    border-radius: 10%;
+    border-color: #00ffff;
+    border-style: solid;
+    font-size: 120%;
+}
+
+.roll_drill{
+    background-color: #fff2de;
+    border-radius: 10%;
+    border-color: #ffdead;
+    border-style: solid;
+    font-size: 120%;
+}
+
+/*Dage knapperne*/
+
+#dage_container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 230, 230);
+    background-image: linear-gradient(to bottom, rgb(34, 34, 34),rgba(245, 246, 252));
+    justify-content: space-around;
+}
+
+#dage_container > div{
+    background-color: #f07f47;
+    border-color: #d3662e;
+    border-style: solid;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+  padding: 3%;
+  margin: 2%;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Nanum Myeongjo";
+  border-radius: 15%;
+}
+
+#dage_container > div:hover{
+    background-color: #833c19;
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 1000px) {
+    #dage_container {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    #dage_container > div{
+        background-color: #f07f47;
+        border-color: #d3662e;
+        border-style: solid;
+        color: white;
+        overflow: hidden;
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+      margin: 2%;
+      text-align: center;
+      font-size: 100%;
+      border-radius: 15%;
+    }
+    #skema_container{
+        position: relative;
+        width: 50%;
+        top: 50%;
+        left: 23.5%;
+    }
+    #skema_container > table{
+        width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    }
+    /*kontakt*/
+    .kontakt-container {
+        display: grid;
+        grid-template-areas:
+          'adresse offtrans'
+          'kort kort'
+          'form form'
+          'form form';
+        gap: 1%;
+        padding: 2%;
+      }
+    
+        .item2 { grid-area: form; }
+        .item3 { grid-area: adresse; }
+        .item4 { grid-area: offtrans; }
+        .item5 { grid-area: kort; }
+      
+  }
+
+  @media (max-width: 450px) {
+    #dage_container {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    #dage_container > div{
+        background-color: #f07f47;
+        border-color: #d3662e;
+        border-style: solid;
+        color: white;
+        overflow: hidden;
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+      margin: 2%;
+      text-align: center;
+      font-size: 100%;
+      border-radius: 15%;
+    }
+    #skema_container{
+        position: relative;
+        width: 50%;
+        top: 50%;
+        left: 2ch;
+    }
+    #skema_container > table{
+        width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    } 
+  }
+
+  /* KONTAKT OS */
+
+.besked{
+    height: 100%;
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 8%;
+    font-family: "Nanum Myeongjo" ;
+    font-weight:500;
+}
+
+.email{
+    height: 100%;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 500;
+}
+
+.fornavn{
+    height: 100%;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 500;
+}
+
+.efternavn{
+    height: 100%;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 500;
+}
+
+.send{
+    height: 100%;
+    font-size: large;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 700;
+}
+
+label{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #f07f47;
+    opacity: 85%;
+    border-radius: 10%;
+    color: black;
+    font-size: larger;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 700;
+}
+
+
+button{
+    background-color: #f07f47;
+    border-radius: 15%;
+    border-color: #f07f47;
+    font-family: "Nanum Myeongjo" ;
+    font-weight: 700;
+}
+
+.kontakt_bg{
+    background-image:url(../img/foto.webp)
+}
+
+.maps_kort{
+    height: 75%;
+}
+
+.info {
+    background-color: #f07f47;
+    opacity: 85%;
+    border-radius: 10%;
+    margin: 5%;
+    padding: 4%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.form_div{
+    margin-top: 5%;
+}
+
+/*video*/ 
+
+video{
+  width: 100%;
+  margin: auto;
+}
+
+  /* header og burgermenu */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo img {
+    width: 40%;
+    height: 40%;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: end;
+  }
+  
+  .menu a:hover {
+    color: #f07f47;
+  }
+  
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burger {
+    display: none;
+  }
+  /* @media screen and (max-width: 800px) { */
+    .menu {
+      display: none;
+    } 
+    .burger {
+      display: block;
+    }
+    .burger.active .line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+      transition: 0.2s linear;
+    }
+  
+    .burger.active .line:nth-child(2) {
+      opacity: 0;
+      transition: 0.15s linear;
+    }
+  
+    .burger.active .line:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+      transition: 0.2s linear;
+    }
+  
+    nav.active .menu {
+      display: block;
+      background-color: #fff;
+      position: absolute;
+      top: 120px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+  
+    nav.active .menu li {
+      margin: 10px 20px;
+    }
+  
+    nav.active .menu a {
+      font-size: 24px;
+      font-family: "Nanum Myeongjo";
+    }
+
+    /*forside*/
+
+    .forside {
+        width: 100%;
+        filter: grayscale(100%);
+    }
+    
+    .text-overlay {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        z-index: 1; 
+       /*  background: rgba(71, 67, 67, 0.74);  */
+       background: rgb(240, 127, 71, 0.74);
+        padding: 24px;
+        border-radius: 40px;
+        text-align: center;
+       /*  color: rgb(255, 255, 255); */
+       color: rgb(255, 255, 255);
+        max-width: 42ch;
+        line-height: 2;
+      }
+    
+      p{
+        font-size: 18px;
+        word-break: keep-all;
+        font-family: "Nanum Myeongjo" ;
+        font-weight: 700;
+      }
+    
+      h1, h2{
+        text-align: center;
+        font-family: "Bebas Neue";
+        justify-content: center;
+      }
+    
+      .center{
+        justify-content: center;
+      }
+    
+      img{
+        width: 50%;
+        height: auto;
+      }
+    
+      .knap {
+        color: white;
+        /* background-color: #A05E16; */
+        background-color: #57280a;
+        /* border-radius: 6px; */
+        padding: 2%;
+        /* border: 1px solid black; */
+        border: 1px solid #A05E16;
+        font-size: medium;
+        text-decoration: none;
+        border-radius: 14%;
+      }

@@ -1,0 +1,10 @@
+.hide{
+    display: none;
+  }
+.larger{
+    transform: scale(1.1, 1.1) ;
+    border-color: #f07f47;
+    background-color: #d3662e;
+    border-style: solid;
+    color: white;
+}
